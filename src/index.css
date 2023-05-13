@@ -51,7 +51,7 @@ header {
 }
 .button--white__arrow {
   color: #9c69e2;
-  line-height: 1em;
+  font-size: 18px;
 }
 
 .nav {
