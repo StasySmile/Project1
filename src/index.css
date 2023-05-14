@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Work+Sans:wght@400;700&display=swap");
-@import url("/src/scss/fontawesome.scss");
-@import url("/src/scss/solid.scss");
+@import url("/src/fontawesome_scss/fontawesome.scss");
+@import url("/src/fontawesome_scss/solid.scss");
 body {
   font-family: "Montserrat", sans-serif;
   width: 73%;
@@ -21,6 +21,22 @@ header {
 
 .push {
   margin-left: auto;
+}
+
+.nav {
+  margin: 0 120px;
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+.nav__link {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.logo {
+  height: 35px;
 }
 
 .button {
@@ -52,20 +68,4 @@ header {
 .button--white__arrow {
   color: #9c69e2;
   font-size: 18px;
-}
-
-.nav {
-  margin: 0 120px;
-  display: flex;
-  gap: 40px;
-  list-style: none;
-}
-.nav__link {
-  text-decoration: none;
-  font-size: 16px;
-  line-height: 160%;
-}
-
-.logo {
-  height: 35px;
 }/*# sourceMappingURL=index.css.map */
