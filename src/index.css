@@ -8,6 +8,11 @@ body {
   color: #4b5d68;
 }
 
+a {
+  text-decoration: none;
+  color: #212353;
+}
+
 header {
   display: flex;
   justify-content: space-between;
