@@ -12,9 +12,6 @@
   font-family: $font-main;
   cursor: pointer;
   &--white {
-    background: #ffffff;
-    border: 1px solid $buttons-color-violet;
-    padding: 16px 23px;
     display: flex;
     gap: 20px;
     &:hover {
@@ -36,19 +33,13 @@
     }
   }
   &--violet {
-    background: $buttons-color-violet;
     color: #ffffff;
-    border: 1px solid $buttons-color-violet;
-    padding: 16px 52px;
     &:hover {
       background: $buttons-color-dark-violet;
     }
   }
   &--pink {
-    background: $buttons-color-pink;
     color: #ffffff;
-    border: 1px solid $buttons-color-pink;
-    padding: 16px 52px;
     &:hover {
       background: $buttons-color-dark-pink;
     }
