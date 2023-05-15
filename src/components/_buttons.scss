@@ -32,16 +32,10 @@
       font-size: 18px;
     }
   }
-  &--violet {
-    color: #ffffff;
-    &:hover {
-      background: $buttons-color-dark-violet;
-    }
+  &--violet:hover {
+    background: $buttons-color-dark-violet;
   }
-  &--pink {
-    color: #ffffff;
-    &:hover {
-      background: $buttons-color-dark-pink;
-    }
+  &--pink:hover {
+    background: $buttons-color-dark-pink;
   }
 }

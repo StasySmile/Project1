@@ -1,22 +1,30 @@
-@mixin button($background-color, $border-style, $padding) {
+@mixin button($background-color, $border-style, $padding, $text-color) {
   background-color: $background-color;
   border: $border-style;
   padding: $padding;
+  color: $text-color;
 }
 .button--white {
-  @include button(#ffffff, 1px solid $buttons-color-violet, 16px 23px);
+  @include button(
+    #ffffff,
+    1px solid $buttons-color-violet,
+    16px 23px,
+    $text-color-dark-violet
+  );
 }
 .button--violet {
   @include button(
     $buttons-color-violet,
     1px solid $buttons-color-violet,
-    16px 52px
+    16px 52px,
+    #ffffff
   );
 }
 .button--pink {
   @include button(
     $buttons-color-pink,
     1px solid $buttons-color-pink,
-    16px 52px
+    16px 52px,
+    #ffffff
   );
 }

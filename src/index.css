@@ -5,18 +5,21 @@
   background-color: #ffffff;
   border: 1px solid #9c69e2;
   padding: 16px 23px;
+  color: #212353;
 }
 
 .button--violet {
   background-color: #9c69e2;
   border: 1px solid #9c69e2;
   padding: 16px 52px;
+  color: #ffffff;
 }
 
 .button--pink {
   background-color: #f063b8;
   border: 1px solid #f063b8;
   padding: 16px 52px;
+  color: #ffffff;
 }
 
 body {
@@ -97,14 +100,8 @@ header {
   color: #9c69e2;
   font-size: 18px;
 }
-.button--violet {
-  color: #ffffff;
-}
 .button--violet:hover {
   background: #8a40ee;
-}
-.button--pink {
-  color: #ffffff;
 }
 .button--pink:hover {
   background: #eb4bab;
