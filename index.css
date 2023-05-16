@@ -42,7 +42,7 @@ header {
   height: 35px;
 }
 
-.container--button {
+.container-button {
   width: 210px;
   height: 60px;
 }
@@ -56,49 +56,49 @@ header {
   font-family: "Montserrat", sans-serif;
   cursor: pointer;
 }
-.button--white {
+.button_white {
   display: flex;
   gap: 20px;
 }
-.button--white:hover {
+.button_white:hover {
   background: #9c69e2;
   color: #ffffff;
 }
-.button--white:hover .button--white__text {
+.button_white:hover .button_white__text {
   color: #ffffff;
 }
-.button--white:hover .button--white__arrow {
+.button_white:hover .button_white__arrow {
   color: #ffffff;
 }
-.button--white__text {
+.button_white__text {
   color: #212353;
 }
-.button--white__arrow {
+.button_white__arrow {
   color: #9c69e2;
   font-size: 18px;
 }
-.button--violet:hover {
+.button_violet:hover {
   background: #8a40ee;
 }
-.button--pink:hover {
+.button_pink:hover {
   background: #eb4bab;
 }
 
-.button--white {
+.button_white {
   background-color: #ffffff;
   border: 1px solid #9c69e2;
   padding: 16px 23px;
   color: #212353;
 }
 
-.button--violet {
+.button_violet {
   background-color: #9c69e2;
   border: 1px solid #9c69e2;
   padding: 16px 52px;
   color: #ffffff;
 }
 
-.button--pink {
+.button_pink {
   background-color: #f063b8;
   border: 1px solid #f063b8;
   padding: 16px 52px;

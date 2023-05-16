@@ -1,4 +1,4 @@
-.container--button {
+.container-button {
   width: 210px;
   height: 60px;
 }
@@ -11,16 +11,16 @@
   font-size: 16px;
   font-family: $font-main;
   cursor: pointer;
-  &--white {
+  &_white {
     display: flex;
     gap: 20px;
     &:hover {
       background: $buttons-color-violet;
       color: #ffffff;
-      .button--white__text {
+      .button_white__text {
         color: #ffffff;
       }
-      .button--white__arrow {
+      .button_white__arrow {
         color: #ffffff;
       }
     }
@@ -32,15 +32,15 @@
       font-size: 18px;
     }
   }
-  &--violet:hover {
+  &_violet:hover {
     background: $buttons-color-dark-violet;
   }
-  &--pink:hover {
+  &_pink:hover {
     background: $buttons-color-dark-pink;
   }
 }
 
-.button--white {
+.button_white {
   @include button(
     #ffffff,
     1px solid $buttons-color-violet,
@@ -48,7 +48,7 @@
     $text-color-dark-violet
   );
 }
-.button--violet {
+.button_violet {
   @include button(
     $buttons-color-violet,
     1px solid $buttons-color-violet,
@@ -56,7 +56,7 @@
     #ffffff
   );
 }
-.button--pink {
+.button_pink {
   @include button(
     $buttons-color-pink,
     1px solid $buttons-color-pink,
