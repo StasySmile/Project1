@@ -1,27 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Work+Sans:wght@400;700&display=swap");
-@import url("/src/fontawesome_scss/fontawesome.scss");
-@import url("/src/fontawesome_scss/solid.scss");
-.button--white {
-  background-color: #ffffff;
-  border: 1px solid #9c69e2;
-  padding: 16px 23px;
-  color: #212353;
-}
-
-.button--violet {
-  background-color: #9c69e2;
-  border: 1px solid #9c69e2;
-  padding: 16px 52px;
-  color: #ffffff;
-}
-
-.button--pink {
-  background-color: #f063b8;
-  border: 1px solid #f063b8;
-  padding: 16px 52px;
-  color: #ffffff;
-}
-
 body {
   font-family: "Montserrat", sans-serif;
   width: 73%;
@@ -105,4 +82,25 @@ header {
 }
 .button--pink:hover {
   background: #eb4bab;
+}
+
+.button--white {
+  background-color: #ffffff;
+  border: 1px solid #9c69e2;
+  padding: 16px 23px;
+  color: #212353;
+}
+
+.button--violet {
+  background-color: #9c69e2;
+  border: 1px solid #9c69e2;
+  padding: 16px 52px;
+  color: #ffffff;
+}
+
+.button--pink {
+  background-color: #f063b8;
+  border: 1px solid #f063b8;
+  padding: 16px 52px;
+  color: #ffffff;
 }/*# sourceMappingURL=index.css.map */
