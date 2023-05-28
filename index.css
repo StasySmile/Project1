@@ -11,6 +11,30 @@ a {
   color: #212353;
 }
 
+.greetings-data-warehouse {
+  margin: 60px 0 100px;
+}
+.greetings-data-warehouse h1 {
+  color: #212353;
+  font-family: "Work Sans", sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  width: 601px;
+  margin: 0;
+}
+.greetings-data-warehouse .greetings-data-warehouse__text {
+  width: 370px;
+  font-size: 18px;
+  line-height: 28.8px;
+  margin: 50px 0;
+}
+.greetings-data-warehouse img {
+  height: 365px;
+  position: absolute;
+  top: 305px;
+  left: 620px;
+}
+
 header {
   display: flex;
   justify-content: space-between;
