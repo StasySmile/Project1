@@ -3,6 +3,7 @@ body {
   width: 73%;
   margin: 0 auto;
   color: $text-color-dark-grey;
+  line-height: 160%;
 }
 
 a {
@@ -20,18 +21,17 @@ h2 {
 
 h1 {
   font-size: 80px;
-  line-height: 88px;
+  line-height: 110%;
   width: 601px;
 }
 
 h2 {
   font-size: 40px;
-  line-height: 52px;
+  line-height: 130%;
 }
 
 p {
   font-size: 18px;
-  line-height: 28.8px;
 }
 
 .greetings {
@@ -50,12 +50,12 @@ p {
 
 .about {
   height: 560px;
-  background-image: url(/src/img/bg-pink.svg);
+  background-color: $background-color-pink-medium;
   border-radius: 50px;
   display: grid;
   grid-template-columns: auto 1fr;
   align-items: center;
-  margin: 80px 0;
+  margin: 120px 0;
   img {
     height: 380px;
     margin: 75px 70px;
@@ -67,4 +67,34 @@ p {
       margin-top: 40px;
     }
   }
+}
+
+.features {
+  margin: 20px 0;
+  text-align: center;
+  p {
+    width: 638px;
+    margin: 50px auto 80px;
+  }
+}
+
+.testimonials {
+  height: 420px;
+  padding: 80px 65px;
+  background-color: $background-color-blue-medium;
+  background-image: url(../../src/img/bg-image-testimonials-left.svg),
+    url(../../src/img/bg-image-testimonials-right.svg);
+  background-size: 540px 320px, 580px 585px;
+  background-repeat: no-repeat, no-repeat;
+  background-position: left top, right top;
+  border-radius: 50px;
+  h2 {
+    text-align: center;
+    color: $text-color-dark-grey;
+    margin-bottom: 80px;
+  }
+}
+
+.card-text {
+  font-size: 16px;
 }
