@@ -4,24 +4,40 @@ body {
   margin: 0 auto;
   color: $text-color-dark-grey;
 }
+
 a {
   text-decoration: none;
   color: $text-color-dark-violet;
 }
-.greetings-data-warehouse {
-  margin: 60px 0 100px;
-  h1 {
-    color: $text-color-dark-violet;
-    font-family: $font-headlines;
-    font-size: 80px;
-    font-weight: 700;
-    width: 601px;
-    margin:0;
-  }
-  .greetings-data-warehouse__text {
+
+h1,
+h2 {
+  color: $text-color-dark-violet;
+  font-family: $font-headlines;
+  font-weight: 700;
+  margin: 0;
+}
+
+h1 {
+  font-size: 80px;
+  line-height: 88px;
+  width: 601px;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 52px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 28.8px;
+}
+
+.greetings {
+  margin: 60px 0;
+  p {
     width: 370px;
-    font-size: 18px;
-    line-height: 28.8px;
     margin: 50px 0;
   }
   img {
@@ -29,5 +45,26 @@ a {
     position: absolute;
     top: 305px;
     left: 620px;
+  }
+}
+
+.about {
+  height: 560px;
+  background-image: url(/src/img/bg-pink.svg);
+  border-radius: 50px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  margin: 80px 0;
+  img {
+    height: 380px;
+    margin: 75px 70px;
+  }
+  &__text {
+    width: 500px;
+    margin: 110px 70px 110px 30px;
+    p {
+      margin-top: 40px;
+    }
   }
 }
