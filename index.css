@@ -218,9 +218,13 @@ header {
 .rewievs__card img {
   height: 90px;
   border-radius: 100%;
-  margin: 50px 15px;
+  margin: 8px 15px;
 }
 .rewievs__card div {
   width: 300px;
   height: 200px;
+}
+.rewievs__card div a {
+  display: block;
+  color: #9c69e2;
 }/*# sourceMappingURL=index.css.map */
