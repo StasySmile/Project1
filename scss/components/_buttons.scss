@@ -17,17 +17,17 @@
     &:hover {
       background: $buttons-color-violet;
       color: #ffffff;
-      .button_white__text {
+      span {
         color: #ffffff;
       }
-      .button_white__arrow {
+      i {
         color: #ffffff;
       }
     }
-    &__text {
+    span {
       color: $text-color-dark-violet;
     }
-    &__arrow {
+    i {
       color: $buttons-color-violet;
       font-size: 18px;
     }

@@ -237,16 +237,16 @@ footer .copyright {
   background: #9c69e2;
   color: #ffffff;
 }
-.button_white:hover .button_white__text {
+.button_white:hover span {
   color: #ffffff;
 }
-.button_white:hover .button_white__arrow {
+.button_white:hover i {
   color: #ffffff;
 }
-.button_white__text {
+.button_white span {
   color: #212353;
 }
-.button_white__arrow {
+.button_white i {
   color: #9c69e2;
   font-size: 18px;
 }
