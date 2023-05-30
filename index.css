@@ -4,6 +4,8 @@ body {
   width: 73%;
   margin: 0 auto;
   color: #4b5d68;
+  font-size: 18px;
+  font-weight: 500;
   line-height: 160%;
 }
 
@@ -31,8 +33,8 @@ h2 {
   line-height: 130%;
 }
 
-p {
-  font-size: 18px;
+.push {
+  margin-left: auto;
 }
 
 .greetings {
@@ -110,10 +112,6 @@ header {
   color: #8a40ee;
 }
 
-.push {
-  margin-left: auto;
-}
-
 .nav {
   margin: 0 120px;
   display: flex;
@@ -128,6 +126,93 @@ header {
 
 .logo {
   height: 35px;
+}
+
+footer {
+  margin-top: 120px;
+}
+footer .free-trial,
+footer .buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .buttons {
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+footer .links {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: auto 1fr 1fr 3fr;
+  -moz-column-gap: 10%;
+       column-gap: 10%;
+}
+footer .links__contact-info {
+  width: 275px;
+}
+footer .links__contact-info .company-name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #212353;
+}
+footer .links__contact-info .company-name p {
+  display: inline-block;
+  margin: 0 10px;
+}
+footer .links__contact-info .address {
+  font-size: 16px;
+}
+footer .links__contact-info .address a {
+  display: block;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+footer .links__about, footer .links__help {
+  width: 81px;
+  font-size: 16px;
+  color: #212353;
+}
+footer .links__about p, footer .links__help p {
+  font-weight: 600;
+}
+footer .links__about a, footer .links__help a {
+  color: #4b5d68;
+}
+footer .links__about a:hover, footer .links__help a:hover {
+  color: #8a40ee;
+}
+footer .links__social-media {
+  width: 190px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #212353;
+}
+footer .links__social-media ul {
+  list-style: none;
+  padding: 0;
+}
+footer .links__social-media li {
+  display: inline-block;
+  background: #212353;
+  opacity: 0.1;
+  margin-right: 10px;
+  border-radius: 100%;
+}
+footer .links__social-media a {
+  color: #ffffff;
+  height: 50px;
+  width: 50px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+footer .copyright {
+  margin: 110px 0;
+  width: 275px;
+  font-size: 12px;
+  font-weight: 300;
+  color: #212353;
 }
 
 .container-button {
