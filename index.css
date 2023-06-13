@@ -15,7 +15,8 @@ a {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   color: #212353;
   font-family: "Work Sans", sans-serif;
   font-weight: 700;
@@ -282,6 +283,49 @@ footer .copyright {
   display: grid;
   grid-template-columns: auto 1fr;
   text-align: left;
+}
+.container-cards .card {
+  width: 570px;
+  height: 400px;
+  margin: 30px;
+  display: flex;
+  position: relative;
+}
+.container-cards .card-background {
+  width: 230px;
+  height: 280px;
+  border-radius: 50px;
+  padding: 60px 70px 60px 100px;
+  position: absolute;
+  right: 0;
+}
+.container-cards .card-background_green {
+  background-color: #F0FAF9;
+}
+.container-cards .card-background_violet {
+  background-color: #F6F0FD;
+}
+.container-cards .card-background_pink {
+  background-color: #FEF0F8;
+}
+.container-cards .card-background_blue {
+  background-color: #EAF6FC;
+}
+.container-cards .card__info {
+  flex-direction: column;
+}
+.container-cards .card img {
+  height: 180px;
+  position: absolute;
+  top: 110px;
+  left: 0;
+}
+.container-cards .card p {
+  width: 230px;
+  height: 180px;
+  margin: 10px 0 0 0;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .rewievs {
