@@ -184,10 +184,9 @@ footer .links__about a:hover, footer .links__help a:hover {
   color: #8a40ee;
 }
 footer .links__social-media {
-  width: 190px;
+  width: 194px;
   font-size: 16px;
   font-weight: 600;
-  color: #212353;
 }
 footer .links__social-media ul {
   list-style: none;
@@ -195,13 +194,30 @@ footer .links__social-media ul {
 }
 footer .links__social-media li {
   display: inline-block;
-  background: #212353;
-  opacity: 0.1;
+  background-color: #e9e9ee;
+  border: 1px solid #e9e9ee;
+  box-sizing: border-box;
   margin-right: 10px;
   border-radius: 100%;
+  color: #ffffff;
+}
+footer .links__social-media li:first-child:hover {
+  background-color: #ffffff;
+  color: #3b5998;
+  border-color: #3b5998;
+}
+footer .links__social-media li:hover {
+  background-color: #ffffff;
+  color: #00acee;
+  border-color: #00acee;
+}
+footer .links__social-media li:last-child:hover {
+  background-color: #ffffff;
+  color: #c13584;
+  border-color: #c13584;
 }
 footer .links__social-media a {
-  color: #ffffff;
+  color: inherit;
   height: 50px;
   width: 50px;
   display: table-cell;

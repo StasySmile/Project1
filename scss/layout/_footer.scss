@@ -50,23 +50,40 @@ footer {
       }
     }
     &__social-media {
-      width: 190px;
+      width: 194px;
       font-size: 16px;
       font-weight: 600;
-      color: $text-color-dark-violet;
       ul {
         list-style: none;
         padding: 0;
       }
       li {
         display: inline-block;
-        background: $text-color-dark-violet;
-        opacity: 0.1;
+        background-color: #e9e9ee;
+        border: 1px solid #e9e9ee;
+        box-sizing: border-box;
         margin-right: 10px;
         border-radius: 100%;
+
+        color: #ffffff;
+        &:first-child:hover {
+          background-color: #ffffff;
+          color: $color-facebook-blue;
+          border-color: $color-facebook-blue;
+        }
+        &:hover {
+          background-color: #ffffff;
+          color: $color-twitter-blue;
+          border-color: $color-twitter-blue;
+        }
+        &:last-child:hover {
+          background-color: #ffffff;
+          color: $color-instagram-pink;
+          border-color: $color-instagram-pink;
+        }
       }
       a {
-        color: #ffffff;
+        color: inherit;
         height: 50px;
         width: 50px;
         display: table-cell;
