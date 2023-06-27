@@ -1,0 +1,66 @@
+.container-button {
+  width: 13.1vw;
+  height: 3.75vw;
+}
+
+.button {
+  width: 100%;
+  border-radius: 3.1vw;
+  box-shadow: 0px 0.3vw 0.3vw rgba(75, 93, 104, 0.1);
+  font-weight: 500;
+  font-size: 1vw;
+  font-family: $font-main;
+  cursor: pointer;
+  &_white {
+    display: flex;
+    gap: 1.25vw;
+    &:hover {
+      background: $buttons-color-violet;
+      color: #ffffff;
+      span {
+        color: #ffffff;
+      }
+      i {
+        color: #ffffff;
+      }
+    }
+    span {
+      color: $text-color-dark-violet;
+    }
+    i {
+      color: $buttons-color-violet;
+      font-size: 1.3vw;
+    }
+  }
+  &_violet:hover {
+    background: $buttons-color-dark-violet;
+  }
+  &_pink:hover {
+    background: $buttons-color-dark-pink;
+  }
+}
+
+.button_white {
+  @include button(
+    #ffffff,
+    1px solid $buttons-color-violet,
+    1vw 1.4vw,
+    $text-color-dark-violet
+  );
+}
+.button_violet {
+  @include button(
+    $buttons-color-violet,
+    1px solid $buttons-color-violet,
+    1vw 3.25vw,
+    #ffffff
+  );
+}
+.button_pink {
+  @include button(
+    $buttons-color-pink,
+    1px solid $buttons-color-pink,
+    1vw 3.25vw,
+    #ffffff
+  );
+}

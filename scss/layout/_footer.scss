@@ -1,0 +1,102 @@
+footer {
+  margin-top: 7.5vw;
+  .free-trial,
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .buttons {
+    column-gap: 1.9vw;
+  }
+  .links {
+    margin-top: 1.25vw;
+    display: grid;
+    grid-template-columns: auto 1fr 1fr 3fr;
+    column-gap: 10%;
+    &__contact-info {
+      width: 17.2vw;
+      .company-name {
+        font-size: 1.25vw;
+        font-weight: 600;
+        color: $text-color-dark-violet;
+        p {
+          display: inline-block;
+          margin: 0 0.62vw;
+        }
+      }
+      .address {
+        font-size: 1vw;
+        a {
+          display: block;
+          font-weight: 400;
+          margin-bottom: 0.62vw;
+        }
+      }
+    }
+    &__about,
+    &__help {
+      width: 5vw;
+      font-size: 1vw;
+      color: $text-color-dark-violet;
+      p {
+        font-weight: 600;
+      }
+      a {
+        color: $text-color-dark-grey;
+        &:hover {
+          color: $buttons-color-dark-violet;
+        }
+      }
+    }
+    &__social-media {
+      width: 12.1vw;
+      font-size: 1vw;
+      font-weight: 600;
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+      li {
+        display: inline-block;
+        background-color: #e9e9ee;
+        border: 1px solid #e9e9ee;
+        box-sizing: border-box;
+        margin-right: 0.62vw;
+        border-radius: 100%;
+
+        color: #ffffff;
+        &:first-child:hover {
+          background-color: #ffffff;
+          color: $color-facebook-blue;
+          border-color: $color-facebook-blue;
+        }
+        &:hover {
+          background-color: #ffffff;
+          color: $color-twitter-blue;
+          border-color: $color-twitter-blue;
+        }
+        &:last-child:hover {
+          background-color: #ffffff;
+          color: $color-instagram-pink;
+          border-color: $color-instagram-pink;
+        }
+      }
+      a {
+        color: inherit;
+        height: 2vw;
+        width: 2vw;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+      }
+    }
+  }
+  .copyright {
+    margin: 6.9vw 0;
+    width: 17.2vw;
+    font-size: 0.75vw;
+    font-weight: 300;
+    color: $text-color-dark-violet;
+  }
+}
