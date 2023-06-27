@@ -23,6 +23,7 @@ h3 {
 }
 
 h1 {
+  font-size: 5vw;
   line-height: 110%;
   width: 601px;
   font-weight: 700;
@@ -52,7 +53,7 @@ h3 {
 .greetings img {
   width: 40%;
   position: absolute;
-  top: 25vw;
+  top: 20vw;
   left: 38.7vw;
 }
 
